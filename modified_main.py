@@ -48,7 +48,7 @@ from IPython.display import display, Javascript
 from google.colab.output import eval_js
 from base64 import b64decode
 
-def take_photo(filename='photo.jpg', quality=0.8):
+def take_photo(filename='photo.jpg', quality=0.8): #ignore this function it's copied from colab snippets
   js = Javascript('''
     async function takePhoto(quality) {
       const div = document.createElement('div');
